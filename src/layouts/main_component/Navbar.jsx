@@ -51,8 +51,8 @@ const Navbar = () => {
               <li
                 className={`text-[16px] font-medium pb-2 border-b-2 transition-all ${
                   isActive(item.to)
-                    ? "text-[#007BFF] border-[#007BFF]"
-                    : "border-transparent hover:text-[#007BFF]"
+                    ? "text-[#FF6A0C] border-[#FF6A0C]"
+                    : "border-transparent hover:text-[#FF6A0C]"
                 }`}
               >
                 {item.label}
@@ -61,7 +61,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="hidden lg:block bg-[#007BFF] text-white py-3 px-8 xl:px-12 rounded-[12px] text-[15px] font-bold shadow-sm hover:shadow-md transition active:scale-95">
+        <button className="hidden lg:block bg-[#FF6A0C] text-white py-3 px-8 xl:px-12 rounded-[12px] text-[15px] font-bold shadow-sm hover:shadow-md transition active:scale-95">
           Let's Start Now
         </button>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
             <Link key={item.to} to={item.to} onClick={() => setOpen(false)}>
               <p
                 className={`text-lg font-medium ${
-                  isActive(item.to) ? "text-[#007BFF]" : "text-[#282D30]"
+                  isActive(item.to) ? "text-[#FF6A0C]" : "text-[#282D30]"
                 }`}
               >
                 {item.label}
@@ -111,7 +111,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <button className="bg-[#007BFF] text-white w-fit px-4 py-3 mt-4 rounded-[12px] font-bold text-[16px] shadow-sm hover:shadow-lg transition active:scale-95">
+          <button className="bg-[#FF6A0C] text-white w-fit px-4 py-3 mt-4 rounded-[12px] font-bold text-[16px] shadow-sm hover:shadow-lg transition active:scale-95">
             Let's Start Now
           </button>
         </div>
