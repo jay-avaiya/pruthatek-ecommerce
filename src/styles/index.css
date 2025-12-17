@@ -27,3 +27,7 @@
   --font-roboto: "Roboto", sans-serif;
   --font-inter: "Inter", sans-serif;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #ff6a0c !important;
+}
