@@ -6,10 +6,10 @@ const SectionCardRight = ({ image, title, description, badge }) => {
       {/* text */}
       <div className="font-inter hidden lg:flex flex-col space-y-6 md:w-[80%] lg:w-[50%]">
         <div>
-          <p className="text-[#007BFF] text-sm md:text-[16px] font-semibold">
+          <p className="text-[#FF6A0C] text-sm md:text-[16px] font-semibold">
             {badge || "Simplify Prescription Management"}
           </p>
-          <h3 className="text-red-400 md:text-yellow-300 lg:text-pink-400 xl:text-[#333333] text-2xl md:text-3xl text-[40px] font-semibold">
+          <h3 className="text-[#333333] text-2xl md:text-3xl text-[40px] font-semibold">
             {title || "Schedule Appointments"}
           </h3>
         </div>
@@ -22,7 +22,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
         </p>
 
         {/* button */}
-        <button className="bg-[#007BFF] text-white px-12 py-3 rounded-xl w-fit cursor-pointer outline-none active:scale-95 transition duration-100 text-sm text-[16px]">
+        <button className="bg-[#FF6A0C] text-white px-12 py-3 rounded-xl w-fit cursor-pointer outline-none active:scale-95 transition duration-100 text-sm text-[16px]">
           Let's Start Now
         </button>
       </div>
@@ -38,7 +38,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
       {/* mobile text */}
       <div className="font-inter flex lg:hidden flex-col space-y-6 md:w-[80%] lg:w-[50%]">
         <div>
-          <p className="text-[#007BFF] text-sm md:text-[16px] font-semibold">
+          <p className="text-[#FF6A0C] text-sm md:text-[16px] font-semibold">
             {badge || "Simplify Prescription Management"}
           </p>
           <h3 className="text-red-400 md:text-yellow-300 lg:text-pink-400 xl:text-[#333333] text-2xl md:text-3xl xl:text-[40px] font-semibold">
@@ -54,7 +54,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
         </p>
 
         {/* button */}
-        <button className="bg-[#007BFF] text-white px-6 lg:px-12 py-3 rounded-xl w-fit cursor-pointer outline-none active:scale-95 transition duration-100 text-sm text-[16px]">
+        <button className="bg-[#FF6A0C] text-white px-6 lg:px-12 py-3 rounded-xl w-fit cursor-pointer outline-none active:scale-95 transition duration-100 text-sm text-[16px]">
           Let's Start Now
         </button>
       </div>
