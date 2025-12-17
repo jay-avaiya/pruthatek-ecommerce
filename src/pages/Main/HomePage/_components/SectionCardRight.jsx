@@ -29,7 +29,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
 
       <div className="w-full max-w-[400px] xl:max-w-[500px] border-[10px] border-[#EFEFEF] rounded-[21px] shadow-[0_20px_60px_rgba(0,0,0,0.08),0_10px_80px_rgba(255,180,120,0.35)]">
         <img
-          src={image || "/home.png"}
+          src={image || "/card.png"}
           alt=""
           className="w-full h-full rounded-[21px] object-contain"
         />

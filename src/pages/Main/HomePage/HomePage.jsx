@@ -47,7 +47,7 @@ const HomePage = () => {
     <div className="flex flex-col items-center gap-28">
       {/* ---- title ---- */}
       <div className="font-inter w-full max-w-6xl mx-auto text-center flex flex-col items-center gap-y-6 md:px-6 px-4 ">
-        <p className="text-[#007BFF] font-medium text-sm md:text-[16px]">
+        <p className="text-[#FF6A0C] font-medium text-sm md:text-[16px]">
           Smart Multi-Hospital Management Platform for Doctors
         </p>
         <h3 className="text-3xl md:text-[40px] xl:text-[50px] font-black text-[#282D30] md:leading:[45px] lg:leading-[60px]">
@@ -61,7 +61,7 @@ const HomePage = () => {
           practice management for Doctors.
         </p>
 
-        <button className="text-white bg-[#007BFF] text-sm md:text-[16px] font-bold rounded-full py-3 px-14 cursor-pointer">
+        <button className="text-white bg-[#FF6A0C] text-sm md:text-[16px] font-bold rounded-full py-3 px-14 cursor-pointer">
           Book A Demo
         </button>
       </div>
@@ -74,7 +74,7 @@ const HomePage = () => {
 
         <div className="shadow-[0_4px_34px_0_rgba(120,120,120,0.25)] rounded-[20px] overflow-hidden">
           <img
-            src="/home.png"
+            src="/home.jpg"
             alt="home_image"
             className="w-full max-w-[950px] object-contain"
           />
@@ -98,7 +98,7 @@ const HomePage = () => {
       {/* ----- section cards ----- */}
       <div className="flex flex-col gap-24 w-full px-4 md:px-6 lg:px-12 xl:px-24">
         <div>
-          <p className="text-sm md:text-[16px] font-semibold text-[#007BFF]">
+          <p className="text-sm md:text-[16px] font-semibold text-[#FF6A0C]">
             What can Do With This System?
           </p>
           <h3 className="text-2xl md:text-3xl lg:text-[40px] font-semibold text-[#333333]">
@@ -136,7 +136,7 @@ const HomePage = () => {
       {/* ---- IMS ---- */}
       <div className="flex flex-col px-4 w-full md:px-6 lg:px-12 xl:px-24 gap-y-5 md:gap-y-10 lg:gap-y-14 font-inter">
         <div>
-          <p className="text-sm md:text-[16px] font-semibold text-[#007BFF]">
+          <p className="text-sm md:text-[16px] font-semibold text-[#FF6A0C]">
             Why Pruthatek’s Institute Management System?
           </p>
           <h3 className="text-2xl md:text-3xl lg:text-[40px] font-semibold text-[#333333]">
@@ -171,7 +171,7 @@ const HomePage = () => {
       {/* Review 2  */}
       <div className="flex flex-col px-4 md:px-6 lg:px-12 xl:px-24 w-full gap-y-14 font-inter">
         <div>
-          <p className="text-sm md:text-[16px] text-[#007BFF] font-semibold">
+          <p className="text-sm md:text-[16px] text-[#FF6A0C] font-semibold">
             Happy Customers
           </p>
           <h3 className="text-2xl md:text-3xl lg:text-[40px] text-[#282D30] font-semibold">
@@ -179,9 +179,9 @@ const HomePage = () => {
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-y-5">
-          <ReviewCard bg={"#007BFF"} />
+          <ReviewCard bg={"#FF6A0C"} />
           <ReviewCard bg={"#FB8C5C"} />
-          <ReviewCard bg={"#007BFF"} />
+          <ReviewCard bg={"#FF6A0C"} />
           <ReviewCard bg={"#FB8C5C"} />
         </div>
       </div>
