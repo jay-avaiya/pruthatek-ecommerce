@@ -179,9 +179,9 @@ const HomePage = () => {
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-y-5">
-          <ReviewCard bg={"#FF6A0C"} />
+          <ReviewCard bg={"#007BFF"} />
           <ReviewCard bg={"#FB8C5C"} />
-          <ReviewCard bg={"#FF6A0C"} />
+          <ReviewCard bg={"#007BFF"} />
           <ReviewCard bg={"#FB8C5C"} />
         </div>
       </div>
