@@ -1,7 +1,6 @@
 import { SearchIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import SectionCard from "./_components/SectionCard";
-import Blog from "../../../layouts/main_component/Blog";
 
 const Resource = () => {
   const [active, setActive] = useState("invoicing");
@@ -56,7 +55,7 @@ const Resource = () => {
     <div className="flex flex-col min-h-screen md:flex-row md:justify-between px-4 md:px-6 lg:px-12 xl:px-24 font-inter">
       {/* side bar */}
       <div className="hidden md:flex flex-col gap-12 sticky top-10 h-fit">
-        <p className="text-sm md:text-[16px] text-[#2C87F2] font-semibold">
+        <p className="text-sm md:text-[16px] text-[#FF6A0C] font-semibold">
           Resources→Client Management
         </p>
 
@@ -74,8 +73,8 @@ const Resource = () => {
                   className={`w-full text-left py-3 px-4 rounded-[10px] text-sm lg:text-[16px] font-semibold flex items-center gap-4 group
                         ${
                           active === item.id
-                            ? "bg-[#2C87F2] text-white"
-                            : "text-[#333] hover:text-black hover:bg-[#2C87F220]"
+                            ? "bg-[#FF6A0C] text-white"
+                            : "text-[#333] hover:text-black hover:bg-[#FF6A0C20]"
                         }
                       `}
                 >
@@ -84,7 +83,7 @@ const Resource = () => {
                           ${
                             active === item.id
                               ? "text-white"
-                              : "text-black group-hover:text-[#008060]"
+                              : "text-black group-hover:text-[#FF6A0C]"
                           }
                         `}
                   >
