@@ -42,7 +42,7 @@ const PlanPricing = ({ hide = false }) => {
     <div className="w-full px-4 md:px-6 lg:px-12 xl:px-24 font-inter overflow-x-hidden">
       {/* title */}
       <div>
-        <p className="text-[#007BFF] text-sm md:text-[16px] font-semibold">
+        <p className="text-[#FF6A0C] text-sm md:text-[16px] font-semibold">
           Pocket Friendly Pricing
         </p>
         <h3 className="text-2xl md:text-3xl lg:text-[40px] font-semibold text-[#282D30] mt-2 leading-[60px]">
@@ -62,7 +62,7 @@ const PlanPricing = ({ hide = false }) => {
           <button
             onClick={() => setYearly(!yearly)}
             className={`w-10 md:w-12 h-5 md:h-6 flex items-center rounded-full p-1 transition-all duration-300 ${
-              yearly ? "bg-[#007BFF]" : "bg-[#D1D5DB]"
+              yearly ? "bg-[#FF6A0C]" : "bg-[#D1D5DB]"
             }`}
           >
             <div
@@ -74,7 +74,7 @@ const PlanPricing = ({ hide = false }) => {
 
           <span className="text-sm md:text-lg font-semibold">Yearly</span>
 
-          <span className="text-[#2C87F2] text-xs md:text-sm font-semibold">
+          <span className="text-[#FF6A0C] text-xs md:text-sm font-semibold">
             {" "}
             20% off + 15 days free
           </span>
@@ -149,7 +149,7 @@ const PlanPricing = ({ hide = false }) => {
           <div className="w-[320px] xl:w-[360px] h-[850px] bg-white rounded-[24px] px-6 py-8 flex flex-col">
             {/* plan name & price */}
             <div className="space-y-4">
-              <h4 className="text-xl font-bold text-[#2C87F2]">Basic</h4>
+              <h4 className="text-xl font-bold text-[#FF6A0C]">Basic</h4>
 
               <div>
                 <h5 className="text-2xl lg:text-3xl xl:text-[34px] font-bold mt-2 tracking-wide">
@@ -191,17 +191,17 @@ const PlanPricing = ({ hide = false }) => {
             </div>
 
             <div className="flex mt-auto">
-              <button className="w-full text-white font-bold text-[16px] bg-[#2C87F2] py-3 rounded-[14px] cursor-pointer active:scale-95 transition duration-200">
+              <button className="w-full text-white font-bold text-[16px] bg-[#FF6A0C] py-3 rounded-[14px] cursor-pointer active:scale-95 transition duration-200">
                 Let's Start
               </button>
             </div>
           </div>
 
           {/* plan 2 */}
-          <div className="w-[320px] xl:w-[360px] h-[850px] bg-[#FDFDFD] border-[3px] border-[#2C87F2] rounded-[24px] px-6 py-8 flex flex-col">
+          <div className="w-[320px] xl:w-[360px] h-[850px] bg-[#FDFDFD] border-[3px] border-[#FF6A0C] rounded-[24px] px-6 py-8 flex flex-col">
             {/* plan name & price */}
             <div className="space-y-4">
-              <h4 className="text-xl font-bold text-[#2C87F2]">Standard</h4>
+              <h4 className="text-xl font-bold text-[#FF6A0C]">Standard</h4>
 
               <div>
                 <h5 className="text-2xl lg:text-3xl xl:text-[34px] font-bold mt-2 tracking-wide">
@@ -243,21 +243,21 @@ const PlanPricing = ({ hide = false }) => {
             </div>
 
             <div className="flex mt-auto">
-              <button className="w-full text-white font-bold text-[16px] bg-[#2C87F2] py-3 rounded-[14px] cursor-pointer active:scale-95 transition duration-200">
+              <button className="w-full text-white font-bold text-[16px] bg-[#FF6A0C] py-3 rounded-[14px] cursor-pointer active:scale-95 transition duration-200">
                 Let's Start
               </button>
             </div>
           </div>
 
           {/* plan 3 */}
-          <div className="relative w-[320px] xl:w-[360px]  h-[850px] border-[3px] border-[#2C87F2] bg-[#2C87F2] rounded-[24px] px-6 py-8 flex flex-col">
+          <div className="relative w-[320px] xl:w-[360px]  h-[850px] border-[3px] border-[#FF6A0C] bg-[#FF6A0C] rounded-[24px] px-6 py-8 flex flex-col">
             {/* Designs */}
             <div className="absolute left-0 top-0 -translate-y-1/3 -translate-x-1/3 w-[90px] h-[90px] rounded-full border-[21px] border-[#FDFDFD1A]"></div>
             <div className="absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2  w-[200px] h-[200px] rounded-full border-[51px] border-[#FDFDFD1A]"></div>
             <div className="absolute left-0 bottom-0 translate-y-1/3 -translate-x-1/3  w-[135px] h-[135px] rounded-full border-[31px] border-[#FDFDFD1A]"></div>
 
             {/* badge */}
-            <div className="absolute top-2 right-2 bg-[#EB4335] text-white text-[16px] rounded-[23px] py-2 px-6 font-bold">
+            <div className="absolute top-2 right-2 bg-[#323232] text-white text-[16px] rounded-[23px] py-2 px-6 font-bold">
               Popular
             </div>
 
@@ -305,7 +305,7 @@ const PlanPricing = ({ hide = false }) => {
             </div>
 
             <div className="flex mt-auto">
-              <button className="w-full text-[#2C87F2] font-bold text-[16px] bg-[#FDFDFD] py-3 rounded-[14px] cursor-pointer z-10 active:scale-95 transition duration-200">
+              <button className="w-full text-[#FF6A0C] font-bold text-[16px] bg-[#FDFDFD] py-3 rounded-[14px] cursor-pointer z-10 active:scale-95 transition duration-200">
                 Let's Start
               </button>
             </div>

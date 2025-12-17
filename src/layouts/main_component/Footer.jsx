@@ -222,7 +222,7 @@ export default function Footer() {
           ©2025 PRUTHA TECHNOMARKET PVT. LTD. | PRUTHA TECHNOMARKET INC. All
           rights reserved.
         </p>
-        <p className="text-[#007BFF] text-xl lg:text-2xl font-semibold mb-4">
+        <p className="text-[#FF6A0C] text-xl lg:text-2xl font-semibold mb-4">
           Made with ❤️ from Bharat
         </p>
       </div>

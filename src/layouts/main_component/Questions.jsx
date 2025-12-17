@@ -48,7 +48,7 @@ const Questions = () => {
             specific bed count, patient load, and operational processes.
           </p>
 
-          <button className="w-[300px] bg-[#2C87F2] text-white py-3 px-12 rounded-[14px] text-[16px] font-bold cursor-pointer">
+          <button className="w-[300px] bg-[#FF6A0C] text-white py-3 px-12 rounded-[14px] text-[16px] font-bold cursor-pointer">
             Book a Demo
           </button>
         </div>

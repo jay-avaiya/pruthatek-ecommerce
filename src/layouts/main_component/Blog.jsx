@@ -90,7 +90,7 @@ const Blog = () => {
                     {blog.description}
                   </p>
 
-                  <p className="absolute bottom-0 left-0 text-[#2C87F2] text-[16px] font-medium cursor-pointer">
+                  <p className="absolute bottom-0 left-0 text-[#FF6A0C] text-[16px] font-medium cursor-pointer">
                     Discover More...
                   </p>
                 </div>
